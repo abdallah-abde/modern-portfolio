@@ -1,4 +1,5 @@
 import {
+  Facebook,
   Info,
   Instagram,
   Linkedin,
@@ -6,7 +7,6 @@ import {
   Map,
   Phone,
   Send,
-  Twitch,
   X,
 } from "lucide-react";
 import { cn } from "../lib/utils";
@@ -102,17 +102,26 @@ export default function ContactSection() {
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect with me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/abdallah-abde/"
+                  target="_blank"
+                >
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://x.com/AbdullahAbde3" target="_blank">
                   <X />
                 </a>
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.instagram.com/abdullah_abde/"
+                  target="_blank"
+                >
                   <Instagram />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitch />
+                <a
+                  href="https://www.facebook.com/abdullah.abde"
+                  target="_blank"
+                >
+                  <Facebook />
                 </a>
               </div>
             </div>
